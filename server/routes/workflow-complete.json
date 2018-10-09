@@ -1,0 +1,127 @@
+{
+  "status": "success",
+  "data": {
+    "campaign": {
+      "flattenedExitEdges": [],
+      "goautobotsWorkflow": {
+        "workflowUUID": "018c69ec-6cef-4d07-90b4-e6e431fd4525",
+        "status": "INACTIVE",
+        "type": "SUPERPAC",
+        "preconditionEdges": [
+          {
+            "edgeUUID": "c6fff63c-6561-493b-91cf-bbade7ab24bc",
+            "toNodeUUID": "00000000-0000-0000-0000-000000000000",
+            "conditions": [
+              {
+                "conditionId": 1018,
+                "config": "[{\"name\":\"city_id\",\"operator\":\"=\",\"type\":\"int\",\"value\":1}]"
+              }
+            ],
+            "priority": 1,
+            "type": 1
+          }
+        ],
+        "name": "vladschi test 4",
+        "description": "",
+        "priority": 0,
+        "meta": {
+          "mega_region_ids": "f0c5d461-d783-43a6-9ecc-e59b698604d7",
+          "mega_region_keyword": ["US & Canada"],
+          "region_keyword": ["US West"],
+          "audience_type_keyword": "Riders",
+          "city_ids": "10",
+          "name": "vladschi test 4",
+          "audience_lifecycle_keyword": "Engagement",
+          "audience_topic_keyword": "Onboarding",
+          "city_keyword": ["Seattle"],
+          "region_ids": "d638de33-72a9-49e3-8080-cebc596fddcf",
+          "team": "Other"
+        },
+        "filters": "",
+        "rootUUID": "e6f3f77e-f709-45fb-a3ea-72e24c22cbb8",
+        "nodes": {
+          "6aeb8c1c-8041-490b-a15b-ab7f60365694": {
+            "nodeUUID": "6aeb8c1c-8041-490b-a15b-ab7f60365694",
+            "meta": "{\"viewData\":{\"type\":\"ADD_NOTE\",\"x\":1403.6363525390625,\"y\":575.7575378417969}}",
+            "actions": [
+              {
+                "actionID": "ADD_NOTE",
+                "config": "{\"messageType\":\"ADD_NOTE\",\"priority\":0,\"uuid\":\"6aeb8c1c-8041-490b-a15b-ab7f60365694\",\"message\":\"abcs\",\"appType\":null,\"createdByEmail\":null,\"expirationMinutes\":60,\"fromEmail\":null,\"subject\":null,\"targetUser\":0,\"templateId\":null,\"templateVars\":null}"
+              }
+            ],
+            "outBoundEdges": {}
+          },
+          "dfb322b7-4071-4e30-ad64-d5ec86f5355e": {
+            "nodeUUID": "dfb322b7-4071-4e30-ad64-d5ec86f5355e",
+            "meta": "{\"viewData\":{\"x\":1.616161584854126,\"y\":452.1212158203125}}",
+            "actions": [],
+            "outBoundEdges": {}
+          },
+          "e6f3f77e-f709-45fb-a3ea-72e24c22cbb8": {
+            "nodeUUID": "e6f3f77e-f709-45fb-a3ea-72e24c22cbb8",
+            "meta": "{\"viewData\":{\"title\":\"Workflow\",\"x\":518.339375813802,\"y\":162.0225045340402}}",
+            "actions": [],
+            "outBoundEdges": {
+              "2e65cff8-2bcd-4799-9294-73cc9c128b1e": {
+                "edgeUUID": "49bf9981-7ba3-47a3-9cee-025ab3effcd1",
+                "toNodeUUID": "2e65cff8-2bcd-4799-9294-73cc9c128b1e",
+                "conditions": [{ "conditionId": 1001, "config": "[]" }],
+                "priority": 1,
+                "type": 2
+              }
+            }
+          },
+          "2e65cff8-2bcd-4799-9294-73cc9c128b1e": {
+            "nodeUUID": "2e65cff8-2bcd-4799-9294-73cc9c128b1e",
+            "meta": "{\"viewData\":{\"x\":956.3636474609375,\"y\":282.42431640625}}",
+            "actions": [],
+            "outBoundEdges": {
+              "6aeb8c1c-8041-490b-a15b-ab7f60365694": {
+                "edgeUUID": "081eee23-d372-448a-967a-71bd64135791",
+                "toNodeUUID": "6aeb8c1c-8041-490b-a15b-ab7f60365694",
+                "conditions": [
+                  {
+                    "conditionId": 1021,
+                    "config": "[{\"name\":\"city_id\",\"operator\":\"=\",\"type\":\"int\",\"value\":9000}]"
+                  }
+                ],
+                "priority": 1,
+                "type": 2
+              }
+            }
+          }
+        },
+        "createdByEmail": "fake.user@uber.com",
+        "createdByUUID": "12345",
+        "createdAt": "2018-10-05 00:21:37 +0000 UTC",
+        "updatedAt": "2018-10-05 00:25:43 +0000 UTC",
+        "deletedAt": null,
+        "exitEdges": [],
+        "allowUserReentry": false,
+        "flushedAt": "0001-01-01 00:00:00 +0000 UTC",
+        "flushingHistory": [],
+        "version": 0,
+        "createdAtMillis": "2018-10-05T00:21:37.000Z",
+        "updatedAtMillis": "2018-10-05T00:25:43.000Z",
+        "deletedAtMillis": null,
+        "flushedAtMillis": "1754-08-30T22:43:41.129Z"
+      }
+    },
+    "campaignMeta": {
+      "mega_region_ids": "f0c5d461-d783-43a6-9ecc-e59b698604d7",
+      "mega_region_keyword": ["US & Canada"],
+      "region_keyword": ["US West"],
+      "audience_type_keyword": "Riders",
+      "city_ids": "10",
+      "name": "vladschi test 4",
+      "audience_lifecycle_keyword": "Engagement",
+      "audience_topic_keyword": "Onboarding",
+      "city_keyword": ["Seattle"],
+      "region_ids": "d638de33-72a9-49e3-8080-cebc596fddcf",
+      "team": "Other"
+    },
+    "canActivateCampaign": true,
+    "canEditCampaign": true,
+    "redirectToSuperpacBE": false
+  }
+}
